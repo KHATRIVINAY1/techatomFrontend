@@ -1,0 +1,157 @@
+.search-form{
+    margin: 10rem 0px 3rem;
+}
+
+.search-form input{
+    font-size: 4rem;
+    max-width: 100%;
+    border: none;
+    padding: 1rem;
+    outline: 1px solid #384BF0;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    color: #777;
+    border-radius: 8px;
+    background-image: url(../images/search.svg);
+    background-position: 10px 21px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    text-indent: 37px;
+}
+
+.search-form input:focus{
+    width: 100%;
+}
+
+.blog-list h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.blog-card{
+    outline: 1px solid #0000ff52;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    padding: 1rem;
+    border-radius: 13px;
+    margin-bottom: 2rem;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.blog-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.vertical-blogs{
+    max-width: 34rem;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+
+.blog-card a
+{
+    text-decoration: none;
+}
+
+.users-read-more img{
+    width: 3rem;
+    border-radius: 50%;
+    outline: 1px solid blue;
+    margin-right: 0.4rem;
+}
+.users-read-more span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+}
+.blog-card-description
+{
+    padding: 0.4rem 2rem;
+}
+.category-date a:link,
+.category-date a:visited,
+.category-date a:hover,
+.category-date a:active{
+    color: #007AFF;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.category-date time{
+    color:#00287A;  
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.blog-body-heading:link h3,
+.blog-body-heading:visited h3,
+.blog-body-heading:hover h3,
+.blog-body-heading:active h3
+{
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.blog-body-heading:link p,
+.blog-body-heading:visited p,
+.blog-body-heading:hover p,
+.blog-body-heading:active p{
+    font-size: 1.2rem;
+    line-height: 1.3;
+    color: #777;
+}
+/* Pagination starts */
+.pagination-items:link, .pagination-items:visited {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.3rem;
+    text-decoration: none;
+    color: #000;
+    width: 4rem;
+    border: 1px solid #0000ff; 
+}
+.pagination-items:hover{
+    color:white;
+    background-color: #0000ff;
+} 
+
+/* Pagination ends */
+
+
+/* aside section */
+.aside-section h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.aside-blog-card:link, .aside-blog-card:visited{
+    text-decoration: none;
+    outline: 1px solid #0000ff52;
+    padding: 0.6rem 0.7rem 0px;
+    border-radius: 0.3rem;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    transition: 1s;
+    margin-bottom: 2rem;
+}
+
+.aside-blog-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.aside-blog-card h3
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(0, 40, 122, 1);
+}
+
+.aside-blog-card p
+{
+    line-height: 1.4;
+    font-size: 1.3rem;
+    color: #333;
+}
+

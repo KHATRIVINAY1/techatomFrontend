@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+html {
+    font-size: 62.5%;
+    scroll-padding-top: 10rem;
+}
+
+body{
+    font-family: 'Inter', 'Roboto',sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+header{
+    background-color: #F1F5FF;
+    position: fixed;
+    width: 100%;
+    transition: 0.8s;
+    top: 0px;
+    z-index: 1000;
+}
+.fixed-nav{
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+nav{
+    padding: 0.6rem 0.2rem;
+}
+.logo:link,.logo:visited, .logo:hover{
+    text-decoration: none;
+    color:  inherit;
+}
+
+.logo img{
+    max-width: 4rem;
+    max-height: 4rem;
+}
+
+.logo h1{
+    padding: 0px;
+    margin: 0px;
+    color: #00287A;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.navitems:link,
+.navitems:visited{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #00287A; 
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.navitems.active, .navitems:hover{
+    border-bottom: 1px solid rgba(50, 83, 255) ;
+}
+
+.navbar-toggler{
+    display: none;
+}
+
+
+/* helper class */
+
+.mt-6{
+    margin-top: 5rem;
+}
+.curve-underline{
+    display: inline-block;
+    position: relative;
+    margin-right: 1rem;
+  }
+
+.curve-underline:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    border: solid 2px #cb1829;
+    border-color: #cb1829 transparent transparent transparent;
+    border-radius: 30%;
+  }
+
+
+
+
+  
+
+footer{
+    background-color: #384BF0;
+    padding: 2rem 0.4rem;
+    color: white;
+
+}
+
+.footer-logo:link,
+.footer-logo:visited,
+.footer-logo:hover,
+.footer-logo:active{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 4rem;
+}
+
+
+.footer-logo h2{
+    margin: 0px 0px 0px 1rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+footer h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer p{
+    font-size: 1.4rem;
+}
+
+footer form{
+    margin-top: 2rem;
+}
+
+footer input{
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 2px;
+    color: #777;
+    
+}
+footer input:focus{
+    text-indent: 3px;
+    outline: none;
+}
+
+footer .subscribe-btn{
+    font-size: 1.6rem;
+    margin-left: -3rem;
+    background: #1400FF;
+    border-radius: 3px;
+}
+footer h5{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.useful-links-list{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.useful-links-list li a:link,
+.useful-links-list li a:visited,
+.useful-links-list li a:hover,
+.useful-links-list li a:active
+{
+    display: inline-block;
+    margin: 1rem 0px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}

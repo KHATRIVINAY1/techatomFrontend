@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--BOOTSTRAP  -->
+    <link href="thirdparty/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/blogdetail.css" rel="stylesheet">
+    <link href="css/queries.css" rel="stylesheet" />
+    <title>Blog </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container d-flex align-items-center justify-content-between">
+                <div>
+                    <a href="#" class="logo d-flex align-items-center gap-2">
+                        <img src="images/logo.png" alt="logo">
+                        <h1>TechAtom</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <a href="#" class="navitems active">Home</a>
+                    <a href="#" class="navitems">Service</a>
+                    <a href="blog.html" class="navitems">Blog</a>
+                    <a href="#" class="navitems">Portfolio</a>
+                    <a href="#" class="navitems">About</a>
+                    <a href="#" class="navitems">Career</a>
+                    <a href="#" class="navitems">Team</a>
+                </div>
+                <button class="navbar-toggler" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main style="margin-top: 5rem;">
+        <!-- blog detail container -->
+        <div class="container">
+            <div class="row">
+                <aside class="col-lg-2 col-12 order-lg-1 order-2"> </aside>
+
+                <article class="col-lg-8 col-12 order-lg-2 order-1 mt-lg-5">
+                    <div class="date-category d-flex align-items-center justify-content-between">
+                        <div class="categories">
+                            <a href="#"> Web Development</a>
+                            /
+                            <a href="#"> Python</a>
+                        </div>
+                        <time datetime="dd mm, yyy"> 26 July, 2022</time>
+                    </div>
+                    <h1 class="blog-heading">
+                        Best Tech Stack: How To Choose The Right Tech Stack?
+                    </h1>
+                    <img src="images/post2.png" class="img-fluid mx-auto my-3 blog-feature-image">
+
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <a href="#" class="blog-author d-flex align-items-center" >
+                            <img src="images/user.jpg" width="40" alt="Author DP">
+                            <h3>Techatom</h3>
+                        </a>
+                        <ul class="blog-share-social">
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                    <hr class="divide-content"/>
+
+                    <!-- content -goes here -->
+                    <div class="article-content">
+                        <p>With the increasing usage of the Internet and mobile devices, there is a great demand for robust applications. Such an immense demand for applications gave rise to the development of frameworks and tools for creating them. A plethora of frameworks, tools, environments, and libraries are available to help developers build interactive websites and applications.</p>
+
+                        <p>Node.js and AngularJS are two widely-used and popular JavaScript technologies of the MEAN stack. The MEAN (MongoDB, ExpressJS, AngularJS, and Node.js) Stack is a group of JavaScript technologies used for developing responsive websites and web applications.</p>
+
+                        <p>The four JavaScript technologies in the MEAN Stack are:</p>
+
+                        <ul>
+                            <li><strong>MongoDB:</strong> It is one of the most popular NoSQL database management systems.</li>
+                            <li><strong>ExpressJS:</strong> It is among the Node.js frameworks that make the development of web applications effortless.</li>
+                            <li><strong>AngularJS:</strong> It is a JavaScript-based framework built on top of HTML.</li>
+                            <li><strong>Node.js:</strong> It is a back-end JavaScript runtime environment that runs on the Google Chrome V8 engine.</li>
+                        </ul>
+
+                        <p>Though AngularJS and Node.js use the same programming language, their working and architecture are pretty different. Node.js is a JavaScript runtime environment, whereas AngularJS is a JavaScript framework. Many people get confused in choosing the one out of Node.js and AngularJS.</p>
+
+                        <p>This article will help you make the best pick out of these JavaScript technologies. It will introduce you to Node.js and AngularJS technologies, their pros and cons, and the significant differences between Node.js and AngularJS.</p>
+
+                        <p>So, without further ado, let us begin.</p>
+
+                        <h2><strong>What is Node.js?</strong></h2>
+
+                        <p>Node.js is an open-source back-end runtime environment for developing networking server-side applications in JavaScript. It is a cross-platform environment that can work on Windows, Linux, macOS, FreeBSD, OpenBSD, z/OS, and SmartOS systems. Licensed under the MIT License, Node.js is an open-source environment. It has an event-driven architecture. It allows us to use JavaScript for server-side scripting and writing command-line tools.</p>
+
+                        <p>Moreover, Node.js will enable developers to use JavaScript for writing server-side and client-side scripts, representing the &lsquo;JavaScript Everywhere&rsquo; paradigm. Initially, the Node.js Foundation owned and managed Node.js, but later they formed the OpenJS Foundation by merging with the JS Foundation. Some popular companies using Node.js are Netflix, Microsoft, Walmart, LinkedIn, Amazon Web Services, PayPal, Yahoo!, Voxer, and Rakuten.</p>
+
+                        <h3><strong>Pros of Node.js</strong></h3>
+
+                        <ul>
+                            <li>Node.js enables developers to scale applications horizontally and vertically. We can achieve horizontal scaling by adding extra nodes to the existing system, whereas vertical scaling is by adding extra resources to each node of a system.</li>
+                            <li>JavaScript is easy to understand and learn, and hence, you can easily learn Node.js.</li>
+                            <li>Node.js lets developers write the front-end and back-end of a web application using a single language, JavaScript. Therefore, there is no need to hire two different resource teams for front-end and back-end development.</li>
+                            <li>It offers high performance and fast code execution speed, as it runs on a V8 engine and supports non-blocking I/O operations.</li>
+                            <li>Node.js has strong community support. There are active and experienced developers who contribute their knowledge and help others to learn Node.js.</li>
+                        </ul>
+
+                        <h3><strong>Cons of Node.js</strong></h3>
+
+                        <ul>
+                            <li>Node.js lacks consistency, as its API changes frequently, and these changes are backward-incompatible.</li>
+                            <li>As Node.js is unopinionated, you need to build everything from scratch.</li>
+                            <li>Node.js is not ideal for heavy-computing applications, as it does not support multithreading.</li>
+                            <li>There is an npm registry, which organizes the installation and manages third-party Node.js programs. Some of the packages in this registry are immature, i.e., not well documented or of poor quality.</li>
+                        </ul>
+
+                        <h2><strong>What is AngularJS?</strong></h2>
+
+                        <p>AngularJS is an open-source web framework for creating single-page applications. It provides a framework for Model-View-ViewModel (MVVM) and Model-View-Controller (MVC) architectures to simplify the development and testing of web applications. It is licensed under the MIT License and developed and maintained by Google.</p>
+
+                        <p>HTML is a great option for declaring static documents, but it is not ideal for declaring dynamic views in web applications. This is where AngularJS comes into the picture. AngularJS enables us to extend HTML vocabulary with ng-directives, and it converts static HTML into a dynamic one.</p>
+
+                        <h3><strong>Pros of AngularJS</strong></h3>
+
+                        <ul>
+                            <li>The two-way data binding feature of AngularJS enables an immediate synchronization between the model and the view. If there are any changes in the view data, they immediately get revised in the model and vice-versa.</li>
+                            <li>Single-page applications developed using AngularJS are quicker to load, work on every platform, are easier to maintain, and offer a great user experience.</li>
+                            <li>As AngularJS is purely based on JavaScript, there is no need to learn any other programming language.</li>
+                            <li>AngularJS supports real-time testing. It allows web applications to undergo unit and end-to-end testing.</li>
+                            <li>There is no need for other third-party software to support applications developed using the AngularJS framework, which, in turn, saves time and resources.</li>
+                        </ul>
+
+                        <h3><strong>Cons of AngularJS</strong></h3>
+
+                        <ul>
+                            <li>Many traditional computers and laptops disable access to JavaScript. In such a circumstance, users with such laptops and computers cannot access the website built using AngularJS.</li>
+                            <li>Users having little to no knowledge of MVC find AngularJS challenging to use.</li>
+                            <li>AngularJS does not offer server authorization and authentication. Therefore, it is less secure.</li>
+                            <li>There is no specific approach to performing a single task, as there are numerous ways available. Therefore, it becomes challenging to determine the optimized approach among all.</li>
+                        </ul>
+
+                        <h2><strong>Node.js vs AngularJS</strong></h2>
+
+                        <p>Here are some major differences between Node.js and AngularJS.</p>
+
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Node.js</strong></td>
+                                    <td><strong>AngularJS</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>It is an open-source runtime environment that runs on the Google Chrome V8 engine to develop JavaScript applications.</td>
+                                    <td>It is an open-source JavaScript-based web framework used for building single-page applications.</td>
+                                </tr>
+                                <tr>
+                                    <td>To use Node.js, we need to install it on our systems. It is a cross-platform environment compatible with Windows, macOS, Linux, FreeBSD, OpenBSD, IBM AIX, SmartOS, and z/OS.</td>
+                                    <td>There is no need to install AngularJS separately. Like other JavaScript files, we need to add the AngularJS file in the codebase to use it in applications.</td>
+                                </tr>
+                                <tr>
+                                    <td>Node.js is written in C, C++, and JavaScript.</td>
+                                    <td>AngularJS is purely written in JavaScript.</td>
+                                </tr>
+                                <tr>
+                                    <td>Developers use Node.js to build server-side networking applications.</td>
+                                    <td>They use AngularJS to develop single-page client-side applications.</td>
+                                </tr>
+                                <tr>
+                                    <td>There are numerous Node.js frameworks, like Express.js, Sails.js, and Partial.js.</td>
+                                    <td>AngularJs itself is a web application development framework.</td>
+                                </tr>
+                                <tr>
+                                    <td>Node.js is well-suited for developing small-size projects, and it is ideal for developing I/O intensive web applications and video streaming sites.</td>
+                                    <td>It is an excellent choice for building highly responsive and interactive web applications.</td>
+                                </tr>
+                                <tr>
+                                    <td>It supports JavaScript-based database queries.</td>
+                                    <td>AngularJS does not support the database query writing feature. Instead, it supports two-way data binding.</td>
+                                </tr>
+                                <tr>
+                                    <td>Node.js is based on the Event Loop model, due to which it is single-threaded.</td>
+                                    <td>It is based on Model-View-Controller (MVC) design pattern.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h2><strong>Conclusion</strong></h2>
+
+                        <p>Node.js and AngularJS JavaScript technologies are aimed at developing web applications. Node.js is a runtime environment and is used for building server-side applications using JavaScript. On the other hand, AngularJS is a Javascript-based web application development framework used for creating single-page client-side applications.</p>
+
+                        <p>Hopefully, you might have found this article helpful in understanding the differences between AngularJS and Node.js. Both these JavaScript technologies are the best in their ways. So make sure to pick the right one according to your project requirements.</p>
+
+                        <p><strong>People are also reading:</strong></p>
+
+                        <ul>
+                            <li><a href="https://www.techgeekbuzz.com/top-node-js-interview-questions/" rel="bookmark" title="Permalink to Top 50 Node.Js Interview Questions and Answers">Node.Js Interview Questions</a></li>
+                            <li><a href="https://www.techgeekbuzz.com/php-vs-node-js/" rel="bookmark" title="Permalink to PHP vs Node.js: Which One to Choose for Back-end Development?">PHP vs Node.js</a></li>
+                            <li><a href="https://www.techgeekbuzz.com/nodejs-vs-python-choose-the-best-backend-language/" rel="bookmark" title="Permalink to NodeJS vs Python: Choose the Best Backend Language">NodeJS vs Python</a></li>
+                            <li><a href="https://www.techgeekbuzz.com/angularjs-vs-reactjs/" rel="bookmark" title="Permalink to AngularJS vs ReactJS: What is the Best for you?">AngularJS vs ReactJS</a></li>
+                            <li><a href="https://www.techgeekbuzz.com/best-angular-alternatives/" rel="bookmark" title="Permalink to 10 Best Angular Alternatives to Use in 2022">Best Angular Alternatives</a></li>
+                            <li><a href="https://www.techgeekbuzz.com/what-is-framework/" rel="bookmark" title="Permalink to What is Framework?">What is Framework?</a></li>
+                            <li><a href="https://www.techgeekbuzz.com/javascript-frameworks/">Best JavaScript Frameworks</a></li>
+                            <li><a href="https://www.techgeekbuzz.com/javascript-interview-questions/">JavaScript Interview Questions</a></li>
+                            <li><a href="https://www.techgeekbuzz.com/top-javascript-ides-text-editor/">Best JavaScript IDEs &amp; Text Editors</a></li>
+                            <li><a href="https://www.techgeekbuzz.com/how-to-learn-javascript-quickly/">How to Learn JavaScript quickly?</a></li>
+                        </ul>
+
+                    </div>
+                    <!-- content-ends here -->
+
+                    <div class="blog-author-detail d-flex align-items-center shadow mb-5">
+                        <figure>
+                            <img src="images/user.jpg" width="100" alt="user image">
+                        </figure>
+                        <div class="author-profile-detail d-flex flex-wrap flex-column p-3 gap-2">
+                            <a href="#" class="author-name">Vinay Khatri</a>
+                            <ul class="author-social-profile">
+                                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            </ul>
+                            <p class="author-bio">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis 
+                                condimentum lobortis.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </article>
+
+                <aside class="col-lg-2 col-12 order-lg-3 order-3"> </aside>
+
+            </div>
+        </div>
+        <!-- Blog detail containers ends -->
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-lg-6 col-12">
+                    <a href="#" class="footer-logo d-flex align-items-center">
+                        <img src="images/white-logo.png" class="img-fluid" width="40">
+                        <h2>TechAtom</h2>
+                    </a>
+                    <h3>Our Newsletter</h3>
+                    <p>
+                        Subscribe us for the latest Tech news and articles
+                    </p>
+                    <form class="d-flex flex-wrap">
+                        <input type="email" placeholder="Enter Your Email">
+                        <button class="btn btn-primary subscribe-btn">Subscribe</button>
+                    </form> 
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h5>Useful Links</h5>
+                    <ul class="d-flex flex-column useful-links-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#"> Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h5>Our Services</h5>
+                    <ul class="d-flex flex-column useful-links-list">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Copy Writing</a></li>
+                        <li><a href="#">App Development</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#"> Social Networking</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <h5 class="text-center mt-6">© Copyright TechAtom. All Rights Reserved</h5>
+    </footer>
+
+    <!-- Script -->
+    <script src="js/base.js"></script>
+    <script src="js/blogdetail.js"></script>
+    <!-- Third party js -->
+    <script src="thirdparty/js/bootstrap.min.js"></script>
+</body>
+</html>
