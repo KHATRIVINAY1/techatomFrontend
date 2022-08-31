@@ -1,0 +1,108 @@
+.page-title{
+    line-height: 1.4;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+    color: #00287A;
+    padding: 2rem 0px;
+}
+
+.about-hero-description>p{
+    margin: 0px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #000;
+    font-weight:600;
+}
+.about-hero-description>p>span{
+    color: #3253FF;
+}
+
+/* about features start */
+.about-features{
+    margin-top: 3rem;
+    background: linear-gradient(to bottom, #6796FF 90%, #fff 50%);
+    padding: 5rem 0px;
+}
+.feature{
+    background: white;
+    padding: 4rem;
+    border-radius: 3rem;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    margin-bottom: 3rem;
+}
+.feature-img>h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #00287A;
+    margin-top: 1rem;
+    line-height: 1.4;
+}
+.feature-description>p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.3rem;
+    line-height: 3;
+    font-weight: 600;
+}
+/* about features ends */
+
+/* subfeatures */
+.sub-features{
+    padding: 1rem;
+}
+.sub-features>img{
+    width: 20rem;
+    height: 16rem;
+    object-fit: scale-down;
+}
+.sub-features>h4{
+    color: #001E6C;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 1rem 0px;
+}
+.sub-features>p{
+    color: #777;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/* subfeatures ends */
+
+/* team section */
+.team-card{
+    padding: 1rem;
+    border: 1px solid #407bff59;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    border-radius: 2rem;
+    transition: 0.4s ease-in;
+}
+.designation{
+    visibility: hidden;
+    margin-top: 10px;
+    transition: 0.4s ease-in;
+    margin-bottom: 0px;
+}
+.team-card:hover  {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #407cff;
+    visibility: visible;
+}
+.team-card:hover .designation{
+    visibility: visible;
+    transform: translateY(-10px)
+}
+.team-card >img{
+    border-radius: 50%;
+    width: 15rem;
+}
+.team-card>h4{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+/* team section ends */
